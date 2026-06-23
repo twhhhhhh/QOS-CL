@@ -14,6 +14,11 @@
             background-color: #111;
             font-family: -apple-system, BlinkMacSystemFont, sans-serif;
         }
+         section {
+            padding: 40px;
+            margin-bottom: 20px; /* 控制上下兩個 section 的間距 */
+          }
+
         .ar-launch-btn {
             display: inline-block;
             padding: 20px 40px;
@@ -25,13 +30,20 @@
             font-weight: bold;
             box-shadow: 0 10px 20px rgba(0,122,255,0.3);
         }
+
     </style>
 </head>
 <body>
-
-    <a rel="ar" href="my_model1.reality" class="ar-launch-btn">
-        進入 AR 空間體驗
-    </a>
-
+    <section>
+        <a rel="ar" href="my_model1.reality" class="ar-launch-btn">
+            進入 AR 空間體驗 - Facal AR
+        </a>
+    </section>
+    <br>
+    <section>
+        <a rel="ar" href="my_model2.reality" class="ar-launch-btn">
+            進入 AR 空間體驗 - Dance with Pokemon
+        </a>
+    </section>
 </body>
 </html>
